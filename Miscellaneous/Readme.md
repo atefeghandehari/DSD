@@ -1,3 +1,3 @@
 # Miscellaneous
 
-In case you need the pictures or anything else from project doc you can pick them from here
+In case you need the pictures or anything else from project doc you can pick them from here (the word file of documentations)
