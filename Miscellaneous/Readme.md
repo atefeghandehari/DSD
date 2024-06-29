@@ -1,3 +1,3 @@
 # Miscellaneous
 
-Please upload any files related to your project here, incuding components datasheet, manual or protocol details, text-based results, and anything else.
+In case you need the pictures or anything else from project doc you can pick them from here
