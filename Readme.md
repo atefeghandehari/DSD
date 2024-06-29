@@ -148,8 +148,6 @@ Some links related to your project come here.
 
 ## Authors
 Authors and their github link come here.
-- [@Author1](https://github.com/Sharif-University-ESRLab)
-- [@Author2](https://github.com/Sharif-University-ESRLab)
-```
+- [@Atefeh Ghandehari](https://github.com/atefeghandehari/DSD.git)
 
-Feel free to customize the content further to match the specifics of your project and your preferred style.
+
