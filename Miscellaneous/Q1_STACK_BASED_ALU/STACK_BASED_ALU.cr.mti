@@ -1,0 +1,58 @@
+{E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/InfixToPostfix .v} {1 {vlog -work work -stats=none {E:\ATEFE-UNIVERSITY\Q1_STACK_BASED_ALU\InfixToPostfix .v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module InfixToPostfix
+
+Top level modules:
+	InfixToPostfix
+
+} {} {}} E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb8_STACK_BASED_ALU.v {1 {vlog -work work -stats=none {E:\ATEFE-UNIVERSITY\Q1_STACK_BASED_ALU\tb8_STACK_BASED_ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb8_STACK_BASED_ALU
+
+Top level modules:
+	tb8_STACK_BASED_ALU
+
+} {} {}} E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb4_STACK_BASED_ALU.v {1 {vlog -work work -stats=none {E:\ATEFE-UNIVERSITY\Q1_STACK_BASED_ALU\tb4_STACK_BASED_ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb4_STACK_BASED_ALU
+
+Top level modules:
+	tb4_STACK_BASED_ALU
+
+} {} {}} E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/ExpressionEvaluator.v {1 {vlog -work work -stats=none {E:\ATEFE-UNIVERSITY\Q1_STACK_BASED_ALU\ExpressionEvaluator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ExpressionEvaluator
+
+Top level modules:
+	ExpressionEvaluator
+
+} {} {}} E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb32_STACK_BASED_ALU.v {1 {vlog -work work -stats=none {E:\ATEFE-UNIVERSITY\Q1_STACK_BASED_ALU\tb32_STACK_BASED_ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb32_STACK_BASED_ALU
+
+Top level modules:
+	tb32_STACK_BASED_ALU
+
+} {} {}} {E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/PostfixEvaluator .v} {1 {vlog -work work -stats=none {E:\ATEFE-UNIVERSITY\Q1_STACK_BASED_ALU\PostfixEvaluator .v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PostfixEvaluator
+
+Top level modules:
+	PostfixEvaluator
+
+} {} {}} E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb16_STACK_BASED_ALU.v {1 {vlog -work work -stats=none {E:\ATEFE-UNIVERSITY\Q1_STACK_BASED_ALU\tb16_STACK_BASED_ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb16_STACK_BASED_ALU
+
+Top level modules:
+	tb16_STACK_BASED_ALU
+
+} {} {}} E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/STACK_BASED_ALU.v {2 {vlog -work work -stats=none {E:\ATEFE-UNIVERSITY\Q1_STACK_BASED_ALU\STACK_BASED_ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module STACK_BASED_ALU
+** Warning: E:\ATEFE-UNIVERSITY\Q1_STACK_BASED_ALU\STACK_BASED_ALU.v(20): (vlog-2182) 'sp' might be read before written in always_comb or always @* block.
+
+Top level modules:
+	STACK_BASED_ALU
+
+} {} {}}

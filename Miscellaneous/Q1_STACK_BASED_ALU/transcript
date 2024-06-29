@@ -1,0 +1,263 @@
+# Compile of tb4_STACK_BASED_ALU.v was successful.
+# Compile of tb4_STACK_BASED_ALU.v was successful.
+# Compile of tb4_STACK_BASED_ALU.v was successful.
+# Load canceled
+# Load canceled
+# Compile of STACK_BASED_ALU.v was successful with warnings.
+# Compile of tb8_STACK_BASED_ALU.v was successful.
+# Compile of tb16_STACK_BASED_ALU.v was successful.
+# Compile of tb32_STACK_BASED_ALU.v was successful.
+# Compile of tb4_STACK_BASED_ALU.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.tb4_STACK_BASED_ALU work.tb8_STACK_BASED_ALU work.tb16_STACK_BASED_ALU work.tb32_STACK_BASED_ALU
+# vsim -gui work.tb4_STACK_BASED_ALU work.tb8_STACK_BASED_ALU work.tb16_STACK_BASED_ALU work.tb32_STACK_BASED_ALU 
+# Start time: 12:15:59 on Jun 29,2024
+# Loading work.tb4_STACK_BASED_ALU
+# Loading work.STACK_BASED_ALU
+# Loading work.tb8_STACK_BASED_ALU
+# Loading work.tb16_STACK_BASED_ALU
+# Loading work.tb32_STACK_BASED_ALU
+run
+# Addition: 1110, Overflow: 0
+# Addition: 00011110, Overflow: 0
+# Addition: 0000000000011110, Overflow: 0
+# Addition: 00000000000000000000000000011110, Overflow: 0
+# Multiplication: 1100, Overflow: 0
+# Multiplication: 00001100, Overflow: 0
+# Multiplication: 0000000000001100, Overflow: 0
+# Multiplication: 00000000000000000000000000001100, Overflow: 0
+# POP: 0100
+# POP: 00000100
+# POP: 0000000000000100
+# POP: 00000000000000000000000000000100
+# Addition with overflow: 1000, Overflow: 0
+# Addition with overflow: 10000000, Overflow: 0
+# Addition with overflow: 1000000000000000, Overflow: 0
+# Addition with overflow: 10000000000000000000000000000000, Overflow: 0
+run
+# Multiplication with overflow: 0000, Overflow: 1
+# ** Note: $finish    : E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb4_STACK_BASED_ALU.v(41)
+#    Time: 130 ps  Iteration: 0  Instance: /tb4_STACK_BASED_ALU
+# 1
+# Break in Module tb4_STACK_BASED_ALU at E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb4_STACK_BASED_ALU.v line 41
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 5
+run 10000
+# Addition: 1110, Overflow: 0
+# Addition: 00011110, Overflow: 0
+# Addition: 0000000000011110, Overflow: 0
+# Addition: 00000000000000000000000000011110, Overflow: 0
+# Multiplication: 1100, Overflow: 0
+# Multiplication: 00001100, Overflow: 0
+# Multiplication: 0000000000001100, Overflow: 0
+# Multiplication: 00000000000000000000000000001100, Overflow: 0
+# POP: 0100
+# POP: 00000100
+# POP: 0000000000000100
+# POP: 00000000000000000000000000000100
+# Addition with overflow: 1000, Overflow: 0
+# Addition with overflow: 10000000, Overflow: 0
+# Addition with overflow: 1000000000000000, Overflow: 0
+# Addition with overflow: 10000000000000000000000000000000, Overflow: 0
+# Multiplication with overflow: 0000, Overflow: 1
+# ** Note: $finish    : E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb4_STACK_BASED_ALU.v(41)
+#    Time: 130 ps  Iteration: 0  Instance: /tb4_STACK_BASED_ALU
+# 1
+# Break in Module tb4_STACK_BASED_ALU at E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb4_STACK_BASED_ALU.v line 41
+quit -sim
+# End time: 12:19:28 on Jun 29,2024, Elapsed time: 0:03:29
+# Errors: 0, Warnings: 1
+# Compile of STACK_BASED_ALU.v was successful with warnings.
+# Compile of tb8_STACK_BASED_ALU.v was successful.
+# Compile of tb16_STACK_BASED_ALU.v was successful.
+# Compile of tb32_STACK_BASED_ALU.v was successful.
+# Compile of tb4_STACK_BASED_ALU.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.tb4_STACK_BASED_ALU work.tb8_STACK_BASED_ALU work.tb16_STACK_BASED_ALU work.tb32_STACK_BASED_ALU
+# vsim -gui work.tb4_STACK_BASED_ALU work.tb8_STACK_BASED_ALU work.tb16_STACK_BASED_ALU work.tb32_STACK_BASED_ALU 
+# Start time: 12:19:46 on Jun 29,2024
+# Loading work.tb4_STACK_BASED_ALU
+# Loading work.STACK_BASED_ALU
+# Loading work.tb8_STACK_BASED_ALU
+# Loading work.tb16_STACK_BASED_ALU
+# Loading work.tb32_STACK_BASED_ALU
+run 1000
+# Addition: 1110, Overflow: 0
+# Addition: 00011110, Overflow: 0
+# Addition: 0000000000011110, Overflow: 0
+# Addition: 00000000000000000000000000011110, Overflow: 0
+# Multiplication: 1100, Overflow: 0
+# Multiplication: 00001100, Overflow: 0
+# Multiplication: 0000000000001100, Overflow: 0
+# Multiplication: 00000000000000000000000000001100, Overflow: 0
+# POP: 0100
+# POP: 00000100
+# POP: 0000000000000100
+# POP: 00000000000000000000000000000100
+# Addition with overflow: 1000, Overflow: 0
+# Addition with overflow: 10000000, Overflow: 0
+# Addition with overflow: 1000000000000000, Overflow: 0
+# Addition with overflow: 10000000000000000000000000000000, Overflow: 0
+# Multiplication with overflow: 0000, Overflow: 1
+# ** Note: $stop    : E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb4_STACK_BASED_ALU.v(41)
+#    Time: 130 ps  Iteration: 0  Instance: /tb4_STACK_BASED_ALU
+# Break in Module tb4_STACK_BASED_ALU at E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb4_STACK_BASED_ALU.v line 41
+quit -sim
+# End time: 12:21:11 on Jun 29,2024, Elapsed time: 0:01:25
+# Errors: 0, Warnings: 2
+# Compile of STACK_BASED_ALU.v was successful with warnings.
+# Compile of tb8_STACK_BASED_ALU.v was successful.
+# Compile of tb16_STACK_BASED_ALU.v was successful.
+vsim -gui work.tb4_STACK_BASED_ALU work.tb8_STACK_BASED_ALU work.tb16_STACK_BASED_ALU work.tb32_STACK_BASED_ALU
+# vsim -gui work.tb4_STACK_BASED_ALU work.tb8_STACK_BASED_ALU work.tb16_STACK_BASED_ALU work.tb32_STACK_BASED_ALU 
+# Start time: 12:21:31 on Jun 29,2024
+# Loading work.tb4_STACK_BASED_ALU
+# Loading work.STACK_BASED_ALU
+# Loading work.tb8_STACK_BASED_ALU
+# Loading work.tb16_STACK_BASED_ALU
+# Loading work.tb32_STACK_BASED_ALU
+# Compile of tb32_STACK_BASED_ALU.v was successful.
+# Compile of tb4_STACK_BASED_ALU.v was successful.
+# 5 compiles, 0 failed with no errors.
+run 1000
+# Addition: 1110, Overflow: 0
+# Addition: 00011110, Overflow: 0
+# Addition: 0000000000011110, Overflow: 0
+# Addition: 00000000000000000000000000011110, Overflow: 0
+# Multiplication: 1100, Overflow: 0
+# Multiplication: 00001100, Overflow: 0
+# Multiplication: 0000000000001100, Overflow: 0
+# Multiplication: 00000000000000000000000000001100, Overflow: 0
+# POP: 0100
+# POP: 00000100
+# POP: 0000000000000100
+# POP: 00000000000000000000000000000100
+# Addition with overflow: 1000, Overflow: 0
+# Addition with overflow: 10000000, Overflow: 0
+# Addition with overflow: 1000000000000000, Overflow: 0
+# Addition with overflow: 10000000000000000000000000000000, Overflow: 0
+# Multiplication with overflow: 0000, Overflow: 1
+# ** Note: $stop    : E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb4_STACK_BASED_ALU.v(41)
+#    Time: 130 ps  Iteration: 0  Instance: /tb4_STACK_BASED_ALU
+# Break in Module tb4_STACK_BASED_ALU at E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb4_STACK_BASED_ALU.v line 41
+quit -sim
+# End time: 12:24:50 on Jun 29,2024, Elapsed time: 0:03:19
+# Errors: 0, Warnings: 2
+# Compile of STACK_BASED_ALU.v was successful with warnings.
+# Compile of tb8_STACK_BASED_ALU.v was successful.
+# Compile of tb16_STACK_BASED_ALU.v was successful.
+# Compile of tb32_STACK_BASED_ALU.v was successful.
+# Compile of tb4_STACK_BASED_ALU.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.tb4_STACK_BASED_ALU
+# vsim -gui work.tb4_STACK_BASED_ALU 
+# Start time: 12:25:16 on Jun 29,2024
+# Loading work.tb4_STACK_BASED_ALU
+# Loading work.STACK_BASED_ALU
+add wave -position end  sim:/tb4_STACK_BASED_ALU/n
+add wave -position end  sim:/tb4_STACK_BASED_ALU/input_data
+add wave -position end  sim:/tb4_STACK_BASED_ALU/opcode
+add wave -position end  sim:/tb4_STACK_BASED_ALU/output_data
+add wave -position end  sim:/tb4_STACK_BASED_ALU/overflow
+run 10000
+# Addition: 1110, Overflow: 0
+# Multiplication: 1100, Overflow: 0
+# POP: 0100
+# Addition with overflow: 1000, Overflow: 0
+# Multiplication with overflow: 0000, Overflow: 1
+# ** Note: $finish    : E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb4_STACK_BASED_ALU.v(41)
+#    Time: 130 ps  Iteration: 0  Instance: /tb4_STACK_BASED_ALU
+# 1
+# Break in Module tb4_STACK_BASED_ALU at E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb4_STACK_BASED_ALU.v line 41
+quit -sim
+vsim -gui work.tb8_STACK_BASED_ALU
+# End time: 12:33:14 on Jun 29,2024, Elapsed time: 0:07:58
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb8_STACK_BASED_ALU 
+# Start time: 12:33:14 on Jun 29,2024
+# Loading work.tb8_STACK_BASED_ALU
+# Loading work.STACK_BASED_ALU
+add wave -position end  sim:/tb8_STACK_BASED_ALU/n
+add wave -position end  sim:/tb8_STACK_BASED_ALU/input_data
+add wave -position end  sim:/tb8_STACK_BASED_ALU/opcode
+add wave -position end  sim:/tb8_STACK_BASED_ALU/output_data
+add wave -position end  sim:/tb8_STACK_BASED_ALU/overflow
+run 1000
+# Addition: 00011110, Overflow: 0
+# Multiplication: 00001100, Overflow: 0
+# POP: 00000100
+# Addition with overflow: 10000000, Overflow: 0
+# Multiplication with overflow: 00000000, Overflow: 1
+# ** Note: $finish    : E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb8_STACK_BASED_ALU.v(41)
+#    Time: 130 ps  Iteration: 0  Instance: /tb8_STACK_BASED_ALU
+# 1
+# Break in Module tb8_STACK_BASED_ALU at E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb8_STACK_BASED_ALU.v line 41
+quit -sim
+vsim -gui work.tb16_STACK_BASED_ALU
+# End time: 12:35:38 on Jun 29,2024, Elapsed time: 0:02:24
+# Errors: 0, Warnings: 1
+# vsim -gui work.tb16_STACK_BASED_ALU 
+# Start time: 12:35:39 on Jun 29,2024
+# Loading work.tb16_STACK_BASED_ALU
+# Loading work.STACK_BASED_ALU
+add wave -position end  sim:/tb16_STACK_BASED_ALU/n
+add wave -position end  sim:/tb16_STACK_BASED_ALU/input_data
+add wave -position end  sim:/tb16_STACK_BASED_ALU/opcode
+add wave -position end  sim:/tb16_STACK_BASED_ALU/output_data
+add wave -position end  sim:/tb16_STACK_BASED_ALU/overflow
+run 1000
+# Addition: 0000000000011110, Overflow: 0
+# Multiplication: 0000000000001100, Overflow: 0
+# POP: 0000000000000100
+# Addition with overflow: 1000000000000000, Overflow: 0
+# Multiplication with overflow: 0000000000000000, Overflow: 1
+# ** Note: $finish    : E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb16_STACK_BASED_ALU.v(41)
+#    Time: 130 ps  Iteration: 0  Instance: /tb16_STACK_BASED_ALU
+# 1
+# Break in Module tb16_STACK_BASED_ALU at E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb16_STACK_BASED_ALU.v line 41
+quit -sim
+vsim -gui work.tb32_STACK_BASED_ALU
+# End time: 12:37:11 on Jun 29,2024, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 1
+# vsim -gui work.tb32_STACK_BASED_ALU 
+# Start time: 12:37:11 on Jun 29,2024
+# Loading work.tb32_STACK_BASED_ALU
+# Loading work.STACK_BASED_ALU
+add wave -position end  sim:/tb32_STACK_BASED_ALU/n
+add wave -position end  sim:/tb32_STACK_BASED_ALU/input_data
+add wave -position end  sim:/tb32_STACK_BASED_ALU/opcode
+add wave -position end  sim:/tb32_STACK_BASED_ALU/output_data
+add wave -position end  sim:/tb32_STACK_BASED_ALU/overflow
+run 1000
+# Addition: 00000000000000000000000000011110, Overflow: 0
+# Multiplication: 00000000000000000000000000001100, Overflow: 0
+# POP: 00000000000000000000000000000100
+# Addition with overflow: 10000000000000000000000000000000, Overflow: 0
+# Multiplication with overflow: 00000000000000000000000000000000, Overflow: 1
+# ** Note: $finish    : E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb32_STACK_BASED_ALU.v(41)
+#    Time: 130 ps  Iteration: 0  Instance: /tb32_STACK_BASED_ALU
+# 1
+# Break in Module tb32_STACK_BASED_ALU at E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb32_STACK_BASED_ALU.v line 41
+quit -sim
+# End time: 12:56:20 on Jun 29,2024, Elapsed time: 0:19:09
+# Errors: 0, Warnings: 1
+# Compile of STACK_BASED_ALU.v was successful with warnings.
+vsim -gui work.tb4_STACK_BASED_ALU
+# vsim -gui work.tb4_STACK_BASED_ALU 
+# Start time: 14:55:52 on Jun 29,2024
+# Loading work.tb4_STACK_BASED_ALU
+# Loading work.STACK_BASED_ALU
+run 1000
+# Addition: 1110, Overflow: 0
+# Multiplication: 1100, Overflow: 1
+# POP: 0100
+# Addition with overflow: xxxx, Overflow: 0
+# Multiplication with overflow: xxxx, Overflow: 0
+# ** Note: $finish    : E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb4_STACK_BASED_ALU.v(41)
+#    Time: 130 ps  Iteration: 0  Instance: /tb4_STACK_BASED_ALU
+# 1
+# Break in Module tb4_STACK_BASED_ALU at E:/ATEFE-UNIVERSITY/Q1_STACK_BASED_ALU/tb4_STACK_BASED_ALU.v line 41
+quit -sim
+# End time: 15:11:16 on Jun 29,2024, Elapsed time: 0:15:24
+# Errors: 0, Warnings: 2
