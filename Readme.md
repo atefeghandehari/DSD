@@ -1,4 +1,3 @@
-```markdown
 ![Logo](https://via.placeholder.com/600x150?text=Your+Logo+Here+600x150)
 
 # STACK_BASED_ALU
