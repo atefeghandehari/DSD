@@ -138,7 +138,8 @@ Output: 0x80000000
 Overflow: 1
 ```
 
-![Sample Simulation](https://via.placeholder.com/600x400?text=Sample+Simulation+Image)
+![Sample Simulation](![غدغ](https://github.com/atefeghandehari/DSD/assets/121711023/58863d1c-7844-40c9-ae47-ab0ff44a8be4)
+)
 
 ## Related Links
 Some links related to your project come here.
@@ -152,4 +153,3 @@ Authors and their github link come here.
 - [@Author2](https://github.com/Sharif-University-ESRLab)
 ```
 
-Feel free to customize the content further to match the specifics of your project and your preferred style.
