@@ -138,8 +138,7 @@ Output: 0x80000000
 Overflow: 1
 ```
 
-![Sample Simulation](![غدغ](https://github.com/atefeghandehari/DSD/assets/121711023/58863d1c-7844-40c9-ae47-ab0ff44a8be4)
-)
+![Sample Simulation]([https://via.placeholder.com/600x400?text=Sample+Simulation+Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2FVerilog-Solutions&psig=AOvVaw0cScMb1rb5RdGz7OIC9Not&ust=1719755928878000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLjN7vDugIcDFQAAAAAdAAAAABAE))
 
 ## Related Links
 Some links related to your project come here.
@@ -151,5 +150,3 @@ Some links related to your project come here.
 Authors and their github link come here.
 - [@Author1](https://github.com/Sharif-University-ESRLab)
 - [@Author2](https://github.com/Sharif-University-ESRLab)
-```
-
